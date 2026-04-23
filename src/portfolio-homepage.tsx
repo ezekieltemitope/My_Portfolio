@@ -238,11 +238,15 @@ export default function PortfolioHomepage() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
           <motion.a
             href="#home"
-            className="text-lg font-semibold tracking-wide text-white"
+            className="flex items-center"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.98 }}
           >
-            Alebiosu Temitope<span className="text-cyan-400">.</span>
+            <img
+              src="./projects/temmy.png" // replace with your actual path
+              alt="Alebiosu Temitope"
+              className="h-15 w-15  rounded-full object-cover"
+            />
           </motion.a>
 
           <nav className="hidden items-center gap-8 text-sm md:flex">
